@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+// @font-face {
+//   font-family: "Sukhumvit Set", sans-serif;
+//   src: url("/assets/fonts/SukhumvitSet/SukhumvitSet-Text.ttf");
+// }
+// $fa-font-family: "Sukhumvit Set", sans-serif;
+
+
+body {
+  font-family: Sukhumvit Set !important;
+}
+
+h3 {
+  font-family: SukhumvitBold !important;
+}
+
+
+@font-face {
+  font-family: SukhumvitSet;
+  src: url("./assets/fonts/SukhumvitSet/SukhumvitSet-Text.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+  @font-face {
+    font-family: SukhumvitBold;
+    src: url("./assets/fonts/SukhumvitSet/SukhumvitSet-Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
