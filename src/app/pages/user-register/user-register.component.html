@@ -1,95 +1,102 @@
-<div class="container">
-  <div class="text-center my-3">
-    <h3>สมัครสมาชิก</h3>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <form class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="fullname">ชื่อ-สกุล</label>
-            <input type="text" class="form-control" id="fullname">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="birthday">วัน/เดือน/ปีเกิด</label>
-            <input type="text" class="form-control" id="birthday">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="text" class="form-control" id="email">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="telephone">เบอร์โทรศัพท์</label>
-            <input type="text" class="form-control" id="telephone">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="carlicense">ทะเบียนรถ</label>
-            <input type="text" class="form-control" id="carlicense">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="province">จังหวัด</label>
-            <input type="text" class="form-control" id="province">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="car-brand">ยี่ห้อ</label>
-            <input type="text" class="form-control" id="car-brand">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="car-color">สีรถ</label>
-            <input type="text" class="form-control" id="car-color">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for="car-parking">ลานจอด</label>
-            <input type="text" class="form-control" id="car-parking">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="row">
-            <div class="col"><span class="h5">สำเนาบัตรประชาชน</span></div>
-            <div class="col"><button class="btn btn-primary">เลือกไฟล์</button></div>
-          </div>
-          <small class="mb-2 mt-3">* รับรองเฉพาะไฟล์ภาพ jpg, jpeg, png หรือไฟล์เอกสาร word, excel, pdf เท่านั้น</small>
-          <div class="row mt-3">
-            <div class="col"><span class="h5">สำเนาทะเบียนรถ</span></div>
-            <div class="col"><button class="btn btn-primary">เลือกไฟล์</button></div>
-          </div>
-          <small class="mb-2 mt-3">* รับรองเฉพาะไฟล์ภาพ jpg, jpeg, png หรือไฟล์เอกสาร word, excel, pdf เท่านั้น</small>
-        </div>
-        <div class="col-md-12 my-3">
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">I agree all statements in <a>Terms of
-                service</a></label>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col text-right"><button class="btn btn-secondary col-6">ยกเลิก</button></div>
-                <div class="col text-left"><button class="btn btn-primary col-6">ลงทะเบียน</button></div>
-              </div>
-            </div>
-            <div class="col-md-3"></div>
-          </div>
-        </div>
-      </form>
+<div class="form-service">
+  <div class="container card">
+    <div class="text-center my-3">
+      <h3 class="text-blue">สมัครสมาชิก</h3>
     </div>
-  </div>
+    <div class="row">
+      <div class="col-md-12">
+        <form class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="fullname" class="text-blue">ชื่อ-สกุล<span class="text-red">*</span></label>
+              <input type="text" class="form-control" id="fullname" placeholder="ชื่อ-สกุล">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="birthday" class="text-blue">วัน/เดือน/ปีเกิด</label>
+              <input type="date" value="2020-01-01" class="form-control" id="birthday">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="email" class="text-blue">E-mail<span class="text-red">*</span></label>
+              <input type="email" class="form-control" id="email" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="telephone" class="text-blue">เบอร์โทรศัพท์<span class="text-red">*</span></label>
+              <input type="tel" value="012-345-6789" class="form-control" id="telephone">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="carlicense" class="text-blue">ทะเบียนรถ<span class="text-red">*</span></label>
+              <input type="text" class="form-control" id="carlicense" placeholder="ทะเบียนรถ">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="province" class="text-blue">จังหวัด</label>
+              <input type="text" class="form-control" id="province" placeholder="จังหวัด">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="car-brand" class="text-blue">ยี่ห้อ</label>
+              <input type="text" class="form-control" id="car-brand" placeholder="ยี่ห้อ">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="car-color" class="text-blue">สีรถ</label>
+              <input type="text" class="form-control" id="car-color" placeholder="สีรถ">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="car-parking" class="text-blue">ลานจอด<span class="text-red">*</span></label>
+              <select class="form-control" id="car-parking">
+                <option>เลือกลานจอดรถ</option>
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-6 text-blue">
+            <div class="row">
+              <div class="col"><span class="h5">สำเนาบัตรประชาชน</span></div>
+              <div class="col"><button class="btn btn-bluegreen">เลือกไฟล์</button></div>
+            </div>
+            <small class="mb-2 mt-3 text-red">* รับรองเฉพาะไฟล์ภาพ jpg, jpeg, png หรือไฟล์เอกสาร word, excel, pdf เท่านั้น</small>
+            <div class="row mt-3">
+              <div class="col"><span class="h5">สำเนาทะเบียนรถ</span></div>
+              <div class="col"><button class="btn btn-bluegreen">เลือกไฟล์</button></div>
+            </div>
+            <small class="mb-2 mt-3 text-red">* รับรองเฉพาะไฟล์ภาพ jpg, jpeg, png หรือไฟล์เอกสาร word, excel, pdf เท่านั้น</small>
+          </div>
+          <div class="col-md-12 my-3">
+            <div class="form-group form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">I agree all statements in <a>Terms of
+                  service</a></label>
+            </div>
+          </div>
+          <div class="col-md-12 my-3">
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col text-right"><button class="btn btn-secondary">ยกเลิก</button></div>
+                  <div class="col text-left"><button class="btn btn-bluedark">ลงทะเบียน</button></div>
+                </div>
+              </div>
+              <div class="col-md-3"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+</div>
