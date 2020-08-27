@@ -6,8 +6,18 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { PagesComponent } from './pages.component';
 import { SystemComponent } from './system/system.component';
 import { PakingSystemComponent } from './paking-system/paking-system.component';
+import { ReportComponent } from './report/report.component';
+import { CustomerSystemComponent } from './customer-system/customer-system.component';
+
 @NgModule({
-  declarations: [ PagesComponent, SidebarComponent, SystemComponent, PakingSystemComponent ],
+  declarations: [
+    PagesComponent,
+    SidebarComponent,
+    SystemComponent,
+    PakingSystemComponent,
+    ReportComponent,
+    CustomerSystemComponent
+  ],
   imports: [
     CommonModule,
     PagesRoutingModule
