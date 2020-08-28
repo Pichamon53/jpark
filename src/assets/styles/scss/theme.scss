@@ -11,12 +11,24 @@
 }
 .btn-bluedark {
   color: white !important;
-  background-color: #252267 !important;
-  border-color: #252267 !important;
+  background-color: #080071 !important;
+  border-color: #080071 !important;
+}
+.btn-bluetiny {
+  color: white !important;
+  background-color: #71C6FF !important;
+  border-color: #71C6FF !important;
 }
 
 .wrapper {
   margin: 2rem 5rem;
+}
+
+.card-system {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 0;
+  opacity: 1;
 }
 
 // a {

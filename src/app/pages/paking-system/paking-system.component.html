@@ -1,1 +1,54 @@
-<p>paking-system works!</p>
+<div class="container">
+  <h3 class="text-blue">การจัดการลานจอดรถ</h3>
+  <div class="my-3">
+    <button type="button" class="btn btn-bluetiny"><i class="fas fa-plus"></i> เพิ่ม</button>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card-system">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">รหัสพนักงาน</th>
+              <th scope="col">ชื่อ-นามสกุล</th>
+              <th scope="col">รหัสลานจอดรถ</th>
+              <th scope="col">ลานจอดรถ</th>
+              <th scope="col">สถานะ</th>
+              <th scope="col">วันที่สร้าง</th>
+              <th scope="col">วันที่แก้ไขล่าสุด</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text-blue">
+              <th scope="row">000001</th>
+              <td>นายเทส เทส</td>
+              <td>1111</td>
+              <td>
+                <select class="form-control" id="exampleSelect1">
+                  <option>สถานีสามย่าน</option>
+                  <option>สถานีศูนย์สิริกิติ์ฯ</option>
+                  <option>สถานีเพชรบุรี</option>
+                </select>
+              </td>
+              <td>
+                <select class="form-control" id="exampleSelect1">
+                  <option style="color: #00B743;">Active</option>
+                  <option style="color: #CC0E08;">Inactivate</option>
+                </select>
+              </td>
+              <td>23/07/2563</td>
+              <td>
+                <p>2/08/2563</p>
+              </td>
+              <td>
+                <button type="submit" class="btn btn-secondary"><i class="fas fa-pen"></i> แก้ไข</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div>
+  </div>
+</div>

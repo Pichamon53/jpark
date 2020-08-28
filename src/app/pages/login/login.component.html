@@ -1,0 +1,30 @@
+<div class="form-service">
+  <div class="container card">
+    <div class="text-center my-3">
+      <h3 class="text-blue">เข้าสู่ระบบ</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-3"></div>
+      <div class="col-md-6">
+        <form>
+          <div class="form-group">
+            <label for="username" class="text-blue">ชื่อผู้ใช้งาน</label>
+            <input type="text" class="form-control" id="username" placeholder="ชื่อผู้ใช้งาน">
+          </div>
+          <div class="form-group">
+            <label for="password" class="text-blue">รหัสผ่าน</label>
+            <input type="password" class="form-control" id="password" placeholder="รหัสผ่าน">
+          </div>
+          <div class="text-right my-3">
+            <a>ลืมรหัสผ่าน</a>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-bluegreen col-12">เข้าสู่ระบบ</button>
+          </div>
+          <p class="my-3 text-center">ยังไม่ได้เป็นสมาชิก? <a class="text-blue" [routerLink]="['/user-register']">ลงทะเบียน</a></p>
+        </form>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+</div>

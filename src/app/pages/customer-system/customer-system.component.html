@@ -1,1 +1,137 @@
-<p>customer-system works!</p>
+<div class="container">
+  <h3 class="text-blue">การจัดการข้อมูลลูกค้า</h3>
+  <div class="row mt-3">
+    <div class="col-md-3">
+      <div class="card h-100">
+        <div class="m-3">
+          <div class="row">
+            <div class="col-8">
+              <small>รายการรอตรวจสอบ</small>
+              <h4 class="mt-2 text-center text-blue">5</h4>
+            </div>
+            <div class="col-4 mt-2 text-center">
+              <img src="./assets/images/icon1.png" width="55" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <div class="m-3">
+          <div class="row">
+            <div class="col-8">
+              <small>รายได้ประจำวัน</small>
+              <h4 class="mt-2 text-center text-blue">3,568</h4>
+            </div>
+            <div class="col-4 mt-2 text-center">
+              <img src="./assets/images/icon2.png" width="55" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <div class="m-3">
+          <div class="row">
+            <div class="col-8">
+              <small>จำนวนช่องจอดว่าง</small>
+              <h4 class="mt-2 text-center text-blue">39</h4>
+            </div>
+            <div class="col-4 mt-2 text-center">
+              <img src="./assets/images/icon3.png" width="55" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card h-100">
+        <div class="m-3">
+          <div class="row">
+            <div class="col-8">
+              <small>สมาชิกยังไม่ได้ต่ออายุบัตร</small>
+              <h4 class="mt-2 text-center text-blue">5</h4>
+            </div>
+            <div class="col-4 mt-2 text-center">
+              <img src="./assets/images/icon4.png" width="55" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <!-- Nav pills -->
+    <ul class="nav nav-pills" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="pill" href="#login">รายการสมัครใหม่</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#regis">รายการต่ออายุ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#regis">ยกเลิกสมาชิก</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="pill" href="#regis">รายการทั้งหมด</a>
+      </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <div id="login" class="container tab-pane active">
+        <form>
+          <div class="row">
+            <div class="col-md-12">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">เลขที่สมาชิก</th>
+                      <th scope="col">ชื่อ-นามสกุล</th>
+                      <th scope="col">เบอร์โทรศัพท์</th>
+                      <th scope="col">ทะเบียนรถ</th>
+                      <th scope="col">ค่าธรรมเนียมสมัครใหม่</th>
+                      <th scope="col">ค่ามัดจำ</th>
+                      <th scope="col">สำเนาทะเบียนรถ</th>
+                      <th scope="col">สำเนาบัตรประชาชน</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="text-blue">
+                      <th scope="row">000001</th>
+                      <td>นายเทส เทส</td>
+                      <td>092-3456789</td>
+                      <td>1กฑ 345</td>
+                      <td class="text-center">-</td>
+                      <td class="text-center">300.00</td>
+                      <td class="text-center"><i class="fas fa-file-alt fa-lg"></i></td>
+                      <td class="text-center"><i class="fas fa-file-alt fa-lg"></i></td>
+                      <td>
+                        <select class="form-control" id="exampleSelect1">
+                          <option style="color: #00B743;">ผ่าน</option>
+                          <option style="color: #CC0E08;">ไม่ผ่าน</option>
+                        </select>
+                        <button type="submit" class="btn btn-bluedark my-3"><i class="fas fa-pen"></i> ยืนยัน</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div id="regis" class="container tab-pane fade">
+        <form>
+          ...
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
