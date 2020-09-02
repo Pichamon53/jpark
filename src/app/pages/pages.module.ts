@@ -8,7 +8,9 @@ import { SystemComponent } from './system/system.component';
 import { PakingSystemComponent } from './paking-system/paking-system.component';
 import { ReportComponent } from './report/report.component';
 import { CustomerSystemComponent } from './customer-system/customer-system.component';
-
+import { LoginComponent } from './login/login.component';
+import { UserRegisterComponent } from './user-register/user-register.component';
+import { ServiceRegisterComponent } from './service-register/service-register.component';
 @NgModule({
   declarations: [
     PagesComponent,
@@ -16,7 +18,10 @@ import { CustomerSystemComponent } from './customer-system/customer-system.compo
     SystemComponent,
     PakingSystemComponent,
     ReportComponent,
-    CustomerSystemComponent
+    CustomerSystemComponent,
+    LoginComponent,
+    UserRegisterComponent,
+    ServiceRegisterComponent,
   ],
   imports: [
     CommonModule,

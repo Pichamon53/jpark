@@ -1,3 +1,6 @@
+import { UserRegisterComponent } from './user-register/user-register.component';
+import { ServiceRegisterComponent } from './service-register/service-register.component';
+import { LoginComponent } from './login/login.component';
 import { CustomerSystemComponent } from './customer-system/customer-system.component';
 import { ReportComponent } from './report/report.component';
 import { PakingSystemComponent } from './paking-system/paking-system.component';
@@ -13,7 +16,10 @@ const routes: Routes = [
       { path: 'system', component: SystemComponent },
       { path: 'paking-system', component: PakingSystemComponent },
       { path: 'report', component: ReportComponent },
-      { path: 'customer-system', component: CustomerSystemComponent }
+      { path: 'customer-system', component: CustomerSystemComponent },
+      { path: 'login', component: LoginComponent },
+      { path: 'user-register', component: UserRegisterComponent },
+      { path: 'service-register', component: ServiceRegisterComponent }
     ]
   }
 ];
